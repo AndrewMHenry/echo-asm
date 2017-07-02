@@ -1,0 +1,7 @@
+: main-file echo.asm
+: entry-point main
+: library interrupt.asm screen.asm draw.asm write.asm keyboard.asm
+: resource fontFBF.asm
+
+: app-file echo-app.asm
+: app-name Echo
