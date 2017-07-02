@@ -33,7 +33,7 @@ convertKey:
         ADD     A, '0'
         CP      '9' + 1
         RET     C
-        ADD     A, 'A' - '0'
+        ADD     A, 'A' - '0' - 10
         RET
 
         CP      sk0
